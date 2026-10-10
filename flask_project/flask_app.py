@@ -8,11 +8,11 @@ def hello_world():
 
 @app.route('/country')
 def country():
-    return "Country: India"
+    return "India"
 
 @app.route('/city')
 def city():
-    return "City: Bangalore"
+    return "Bangalore"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
